@@ -1,5 +1,5 @@
 function doGet() {
-  return HtmlService.createTemplateFromFile('Index')
+  return HtmlService.createTemplateFromFile('Index.html')
       .evaluate()
       .setTitle('نظام الإيجارات الزراعية')
       .addMetaTag('viewport', 'width=device-width, initial-scale=1');
